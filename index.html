@@ -1,19 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba módulo 2</title>
-    <!-- Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- Estilos css -->
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-   <h1 class="roboto-600">Hola mundo</h1> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 3 - Media Queries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets\style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header class="header">
+     <div class="header-content">
+    <label for="orden-select">Ordenar por:</label>
+    <select class="select">
+      <option value="precio" selected>Precio</option>
+      <option value="relevancia">Relevancia</option>
+      <option value="nombre">Nombre</option>
+      <option value="reciente">Más reciente</option>
+    </select>
+  </div>
+      </header>
+
+      <nav class="menu">
+  <div class="menu-header">
+    <div class="menu-title">
+      <i class="fa-solid fa-car"></i>
+      Electric cars
+    </div>
+    <div class="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </div>
+  <ul class="menu-list">
+    <li><a href="#">Inicio <i class="fas fa-tag"></i></a></li>
+    <li><a href="#">Catálogo <i class="fa-solid fa-book"></i></a></li>
+    <li><a href="#">Ofertas <i class="fa-solid fa-tags"></i></a></li>
+    <li><a href="#">Contacto <i class="fa-solid fa-paper-plane"></i></a></li>
+  </ul>
+</nav>
+
+
+      <main class="main">
+       <div class="card">
+        <img src="https://picsum.photos/200/300?random=1">
+            <p> imagen 1</p>
+            <button>Comprar</button>
+        </div> 
+       <div class="card">
+<img src="https://picsum.photos/200/300?random=2">
+<p> imagen 1</p>
+<button>Comprar</button>
+       </div> 
+              <div class="card">
+<img src="https://picsum.photos/200/300?random=3">
+<p> imagen 1</p>
+<button>Comprar</button>
+       </div> 
+              <div class="card">
+<img src="https://picsum.photos/200/300?random=4">
+<p> imagen 1</p>
+<button>Comprar</button>
+       </div> 
+              <div class="card">
+<img src="https://picsum.photos/200/300?random=5">
+<p> imagen 1</p>
+<button>Comprar</button>
+       </div> 
+       <div class="card">
+<img src="https://picsum.photos/200/300?random=6">
+<p> imagen 1</p>
+<button>Comprar</button>
+       </div> 
+       <!-- Se explorará ahora la alternativa de hacer una grilla dentro de main con dos columnas, cada una con el mismo ancho. -->
+        
+   <div class="pagination">
+  <a href="#" class="current">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+</div>
+
+      </main>
+    <footer class="footer">
+  
+  <div class="social-icons">
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-instagram"></i> 
+  </div> 
+  2025 &copy; Todos los derechos reservados
+</footer>
+
+    </section>
+  </body>
 </html>
