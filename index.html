@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafío 3 - Media Queries</title>
+    <title>Prueba_css_truber</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,86 +21,110 @@
   </head>
   <body>
     <section class="container">
+      <div class="truckber">
+        <h1 class="title">/truckber</h1>
+      </div>
       <header class="header">
-     <div class="header-content">
-    <label for="orden-select">Ordenar por:</label>
-    <select class="select">
-      <option value="precio" selected>Precio</option>
-      <option value="relevancia">Relevancia</option>
-      <option value="nombre">Nombre</option>
-      <option value="reciente">Más reciente</option>
-    </select>
-  </div>
+        <div class="header-content">
+          <label for="orden-select"><span style="color:white">Ingrese origen:</span></label>
+          <select class="select">
+            <option value="origen" selected>Ciudad de origen</option>
+            <option value="Santiago">Santiago de Chile</option>
+            <option value="Talca">Talca</option>
+            <option value="Concepción">Concepción</option>
+            <option value="Pmontt">Puerto Montt</option>
+            <option value="serena">La Serena</option>
+          </select>
+        </div>
+        <div class="header-content">
+          <label for="orden-select"><span style="color: white">Ingrese destino:</span></label>
+          <select class="select">
+            <option value="origen" selected>Ciudad de destino</option>
+            <option value="Santiago">Santiago de Chile</option>
+            <option value="Talca">Talca</option>
+            <option value="Concepción">Concepción</option>
+            <option value="Pmontt">Puerto Montt</option>
+            <option value="serena">La Serena</option>
+          </select>
+        </div>
+        <div class="search">
+          <button class="button">Buscar</button>
+        </div>
       </header>
-
       <nav class="menu">
-  <div class="menu-header">
-    <div class="menu-title">
-      <i class="fa-solid fa-car"></i>
-      Electric cars
-    </div>
-    <div class="menu-toggle">
-      <i class="fa-solid fa-bars"></i>
-    </div>
-  </div>
-  <ul class="menu-list">
-    <li><a href="#">Inicio <i class="fas fa-tag"></i></a></li>
-    <li><a href="#">Catálogo <i class="fa-solid fa-book"></i></a></li>
-    <li><a href="#">Ofertas <i class="fa-solid fa-tags"></i></a></li>
-    <li><a href="#">Contacto <i class="fa-solid fa-paper-plane"></i></a></li>
-  </ul>
-</nav>
-
-
+        <div class="logo">
+        <img class="img-logo" src="assets/img/logo.PNG" alt="Logo" />
+        </div>
+        <div class="menu-header">
+          <div class="menu-title">
+            <i class="fa-solid fa-car"></i>
+            <h2>/truckber</h2>
+          </div>
+          <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <ul class="menu-list">
+          <li>
+            <a href="#">Inicio <i class="fas fa-tag"></i></a>
+          </li>
+          <li>
+            <a href="#">Catálogo <i class="fa-solid fa-book"></i></a>
+          </li>
+          <li>
+            <a href="#">Ofertas <i class="fa-solid fa-tags"></i></a>
+          </li>
+          <li>
+            <a href="#">Contacto <i class="fa-solid fa-paper-plane"></i></a>
+          </li>
+        </ul>
+      </nav>
       <main class="main">
-       <div class="card">
-        <img src="https://picsum.photos/200/300?random=1">
-            <p> imagen 1</p>
-            <button>Comprar</button>
-        </div> 
-       <div class="card">
-<img src="https://picsum.photos/200/300?random=2">
-<p> imagen 1</p>
-<button>Comprar</button>
-       </div> 
-              <div class="card">
-<img src="https://picsum.photos/200/300?random=3">
-<p> imagen 1</p>
-<button>Comprar</button>
-       </div> 
-              <div class="card">
-<img src="https://picsum.photos/200/300?random=4">
-<p> imagen 1</p>
-<button>Comprar</button>
-       </div> 
-              <div class="card">
-<img src="https://picsum.photos/200/300?random=5">
-<p> imagen 1</p>
-<button>Comprar</button>
-       </div> 
-       <div class="card">
-<img src="https://picsum.photos/200/300?random=6">
-<p> imagen 1</p>
-<button>Comprar</button>
-       </div> 
-       <!-- Se explorará ahora la alternativa de hacer una grilla dentro de main con dos columnas, cada una con el mismo ancho. -->
-        
-   <div class="pagination">
-  <a href="#" class="current">1</a>
-  <a href="#">2</a>
-  <a href="#">3</a>
-</div>
+        <div class="card">
+          <img src="https://picsum.photos/200/300?random=1" />
+          <p>imagen 1</p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/200/300?random=2" />
+          <p>imagen 1</p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/200/300?random=3" />
+          <p>imagen 1</p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/200/300?random=4" />
+          <p>imagen 1</p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/200/300?random=5" />
+          <p>imagen 1</p>
+          <button>Comprar</button>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/200/300?random=6" />
+          <p>imagen 1</p>
+          <button>Comprar</button>
+        </div>
+        <!-- Se explorará ahora la alternativa de hacer una grilla dentro de main con dos columnas, cada una con el mismo ancho. -->
 
+        <div class="pagination">
+          <a href="#" class="current">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+        </div>
       </main>
-    <footer class="footer">
-  
-  <div class="social-icons">
-    <i class="fa-brands fa-square-facebook"></i>
-    <i class="fa-brands fa-instagram"></i> 
-  </div> 
-  2025 &copy; Todos los derechos reservados
-</footer>
-
+      <footer class="footer">
+        <div class="social-icons">
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        2025 &copy; Todos los derechos reservados
+      </footer>
     </section>
   </body>
 </html>
