@@ -81,6 +81,7 @@
   align-items: center;
   gap: 10px;
   width: 100%;
+  font-size: 24px;
 }
 .button{
   width:auto;
@@ -94,6 +95,7 @@
 }
 .select{
   width: 70%;
+  font-size: 24px;
 }
 */Estilo para la selección de la categoría de búsqueda*/
 /* #orden-select {
